@@ -1,6 +1,6 @@
-const hetorgay = document.getelementbyid("hetorgay");
-const gaybutton = document.getelementbyid("gaybutron");
+const hetorgay = document.GetElementById("hetorgay");
+const gaybutton = document.GetElementById("gaybutron");
 function becomegay(){
-  hetorgay.innertext = "nah bro im gay";
+  hetorgay.innerText = "nah bro im gay";
 }
-gaybutton.addeventlistener("click", becomegay);
+gaybutton.addEventListener("click", becomegay);
